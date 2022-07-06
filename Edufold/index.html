@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edufold</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200;300;400;600;700&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="./images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>Making wesite is now one of the easiest thing in world. You just need to learn HTML, CSS,<br> JAVASCRIPT and you are good to go.</p>
+            <a href="" class="hero-btn">Visit us to know more</a>
+
+        </div>
+    </section>
+
+    <!-- Course -->
+
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+        
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro officia ut fuga optio adipisci ea consequuntur aliquid, pariatur possimus soluta nemo natus veniam aliquam eveniet quasi sit assumenda, exercitationem sunt!</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro officia ut fuga optio adipisci ea consequuntur aliquid, pariatur possimus soluta nemo natus veniam aliquam eveniet quasi sit assumenda, exercitationem sunt!</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro officia ut fuga optio adipisci ea consequuntur aliquid, pariatur possimus soluta nemo natus veniam aliquam eveniet quasi sit assumenda, exercitationem sunt!</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- JavaScript for Toggle Menu -->
+
+    <script src="https://kit.fontawesome.com/1c1373f54b.js" crossorigin="anonymous"></script>
+    <script>
+        let navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
