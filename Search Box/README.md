@@ -1,2 +1,2 @@
-#Interactive Search Bar
+#Interactive-Search-Bar
 ##https://interactive-search-bar.netlify.app/
