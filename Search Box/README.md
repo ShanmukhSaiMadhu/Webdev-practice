@@ -1,1 +1,1 @@
-[Link](https://interactive-search-bar.netlify.app/)
+[Website Link](https://interactive-search-bar.netlify.app/)
