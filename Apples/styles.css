@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-color: #90ee90;
   }
@@ -110,4 +111,118 @@ body {
     color: white;
     float: right;
     margin: 10px;
+=======
+body {
+    background-color: #90ee90;
+  }
+  
+  .product_container {
+    margin: 0px auto;
+    width: fit-content;
+    display: flex;
+    margin-top: 3%;
+  }
+  
+  .product_details {
+    width: 500px;
+    height: 515px;
+    background-color: white;
+    display: flex;
+    border-radius: 7px;
+  }
+  
+  .product_image {
+    width: 270px;
+    height: 400px;
+    position: relative;
+    left: 150px;
+    top: 40px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 6px 24px -5px rgba(0,0,0,0.75);
+    border-radius: 10px;
+  }
+  
+  .detail_first {
+    flex: 0.4;
+  }
+  
+  .detail_second {
+    flex: 0.6;
+    padding-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .code_text {
+    font-size: 12px;
+    opacity: 0.3;
+  }
+
+  .cost_text {
+    color: red;
+    font-size: 20px;;
+  }
+
+  .price_text {
+    font-size: 80px;;
+  }
+
+  .color_img:hover {
+    border: 1px solid black;
+    border-radius: 5px;
+    transform: scale(0.9);
+    cursor: pointer;
+  }
+
+  li {
+    font-size: 10px;
+  }
+
+  .add_to_cart_btn {
+    background-color: red;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 25px -5px gray;
+    margin-top: 8px;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .top_section {
+    flex: 0.8;
+    background: radial-gradient(#f4f4f4 20%,#adff2f 80%);
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .bottom_section {
+    flex: 0.2;
+    background-color: white;
+    padding-top: 10px;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .main_apple_img {
+    position: absolute;
+    left: -50px;
+    height: 210px;
+    top: 20px;
+  }
+
+  .apple_img {
+    border: 0.1px solid gray;
+    transform: scale(0.8);
+  }
+
+  .icon1 {
+    color: white;
+    margin: 10px;
+  }
+
+  .icon2 {
+    color: white;
+    float: right;
+    margin: 10px;
+>>>>>>> fcf4cbe0645ffdba7af0e5cfc58e743099ac652b
   }
