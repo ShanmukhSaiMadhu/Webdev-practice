@@ -100,7 +100,7 @@ nav .fa {
 
 @media(max-width: 700px) {
     html,body {
-        overflow-x: hidden;
+        overflow-x: hiddenEdufold;
     }
 
     .text-box h1 {
